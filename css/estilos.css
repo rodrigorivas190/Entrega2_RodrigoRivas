@@ -1,0 +1,382 @@
+
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    
+}
+/* pagina de contaco */
+.contenedorMain{
+    position:relative;
+    width: 100%;
+    height: 70vh;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+  
+}
+
+
+.contact-box{
+    max-width: 850px;
+    display:grid;
+    grid-template-columns:  1fr;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba( 0, 0, 0, 0.19 );
+
+}
+
+
+
+.left{
+    background: url("../img/MOLINO\ DE\ VIENTO.webp") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 0px;
+}
+
+h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color:#1d373a ;
+
+}
+
+.field{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.184);
+    outline:none;
+    background-color: #d9eddf;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: all 0.3s ease-in-out;
+}
+textarea{
+    min-height: 70px;
+}
+.btn{
+    width: 50%;
+    padding: 0.5rem 1rem;
+    background-color: #cdebc7 ;
+    color: #fff;
+    font-size: 1 rem;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color:#ad9c9c ;
+}
+.field:focus{
+    border: 2px solid #3a1d1d ;
+    background-color: #fff;
+}
+
+/* ------------------- */
+/* logo / carrusel */
+
+.object-fit{
+    object-fit: cover;
+}
+.logo{ 
+width: 10%;
+perspective: 10px;
+margin-top: 0px;
+    
+}
+.logo{
+width: 10%;
+animation: rotar 10s infinite linear;
+transform-style: preserve-3d;
+}
+
+.carousel-inner:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.logo figure{
+width: 50%;
+height: 120px;
+overflow: hidden;
+position: absolute;
+box-shadow: 0px 0px 20px 0px black;
+transition: all 300ms;
+}
+.carousel-inner:hover{
+    box-shadow: 0px 0px 0px 0px black; 
+    transition: all 300ms;
+}
+
+.carousel-inner figure:nth-child(1)
+.carousel-inner img {
+width: 70;
+transition: all 300ms;
+}
+
+.carousel-inner img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+} 
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+}to{ transform: rotateY(360deg);}
+}
+
+.logo{
+    width:10%;
+
+}
+
+img{
+    width:40px;
+}
+section img{
+    width:70%;
+   /* height:50%;*/
+} 
+
+h5{
+    color:#020e06;
+    text-align: center;
+    font-size: 150%;
+
+}
+h7{
+    color:#e8ece9;
+    text-align: center;
+    font-size: 150%;
+
+}
+ /*---------------  */
+h1{
+    color:#0bbb46;
+    text-align: center;
+    font-size: 200%;
+}
+.contacto{
+    color:#0bbb46;
+    text-align: center;
+    font-size: 200%;
+    
+}
+.ayuda{
+    color:#0bbb46;
+    text-align: center;
+    font-size: 130%;
+    
+}
+.consulta{
+    color:#0bbb46;
+    text-align: center;
+    font-size: 100%;
+    
+}
+.btn{
+    color:#07451c;  
+    font-size: 100%; 
+}
+
+.comunicate{
+    color:#0bbb46;
+    text-align: justify;
+    font-size: 130%;
+    
+}
+
+/* institucional */
+
+/* .institucional{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 0px;
+    color:#3ce179;
+    text-align: justify;
+    font-size: 160%;
+
+
+} */
+
+
+.centrado{
+    color:#021a0a;
+    text-align: justify;
+    font-size: 100%;
+    
+}
+
+
+p{
+
+    text-align: center;
+    font-size: 100%;
+
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(36, 33, 33);
+    background-color: rgb-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    line-height: 1.7em;
+    font-weight: 4  00;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.hvr-grow {
+    display: inline-flex;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.item-group {
+    --xyz-rotate-z: 1turn;
+    --xyz-origin: center -200%;
+    --xyz-duration: 2s;
+    --xyz-scale-x: 0;
+    --xyz-scale-y: 0;
+  }
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+   
+}
+.ing{
+
+    width:5%; 
+}
+    
+
+/*cuando es un celular */
+@media screen and (max-width: 768px){
+    .galeria{
+        width: 100%;
+        height:80vh;
+        display: flex;
+        align-items: center;
+    } 
+    .icon{
+        font-size: 1.5rem;
+    }
+    .piePagina{
+        height: 3rem;
+    }
+    /*nosotros*/
+    .col-info {
+       width:100%;
+       height: 100%;
+       padding:1rem;
+    }
+    .parrafoNosotros{
+        font-size: 1.2rem;
+        line-height: 2.0;
+    }
+    .titulo{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .titulo span{
+       display:inline;
+    }
+    .ocultar{
+        display: none;
+    }
+    /* pagina contacto*/
+    .contenedorMain{
+       padding: 20px;  
+    }
+     
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        background-size: cover;
+        height: 100%;
+    }
+    .right{
+        padding: 25px 20px;
+    }
+}
+
+/*cuando es celular pero horizontal*/
+@media screen and (max-width:1000px) and (orientation: landscape){
+    h1{
+        font-size: 1.2rem;
+    }
+    .galeria{
+        display: flex;
+        justify-content: center;
+    } 
+    .carousel-item{
+        width:100%;
+        height: 55vh;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+    .piePagina{
+        height: 3rem;
+    }
+
+}
+/* productos */
+
+
+ .bd-placeholder-img {
+    
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        
+}
+
+      @media (min-width: 1000px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+}
