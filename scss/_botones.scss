@@ -1,0 +1,18 @@
+
+
+header{
+    .btn{
+        color:#07451c;  
+        font-size: 100%; 
+        &:hover{
+        background-color: $color-letra;
+        color: $color-primario;
+        &:hover{
+        background-color: #8aa0c1;
+        border-color: $color-bordes;
+            }
+         }
+    }
+}
+
+

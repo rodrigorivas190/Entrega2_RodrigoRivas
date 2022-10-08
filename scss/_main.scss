@@ -1,0 +1,39 @@
+.hvr-grow {
+    display: inline-flex;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 2px rgba(73, 247, 131, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+section img{
+    width:70%;
+} 
+h5{
+    color: $color-letra-secundaria;
+    text-align: $texto-aliniado;
+    font-size: 150%;
+}
+h1{
+    color: $color-letra;
+    text-align: $texto-aliniado;
+    font-size: 200%;
+}
+p{
+    text-align: $texto-aliniado;
+    font-size: 100%;
+}
+form {
+    display: block;
+    margin-top: $margen-cero;
+}
+
+
