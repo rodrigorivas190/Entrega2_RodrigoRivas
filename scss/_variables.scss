@@ -1,26 +1,87 @@
 $color-primario: RED;
 $color-bordes: #0a58ca;
-
-
-
 $espaciado-estandar: 10px;
 $espaciado-doble: 20px;
-
 $tipofrafia-general: Open Sans,Arial,sans-serif;
-
 $margen-cero: 0px;
-
 $area-1: 50%;
-
-
 $texto-aliniado: center;
 $texto-justificado: justify;  
 $texto-aliniado-2 : justify;
-
 $comentario-justificado: center;
 $comentario-justificado2: justify;
 $color-letra: #0bbb46;
 $color-letra-secundaria: #020e06;
+$ancho :100%;
+$borde: 5px solid black;
+$bg-color-green:green;
+$total-columnas : 10;
+$tamaño-fuente: 12px;
+$fuentes_negrita: bold;
+$borde-principal: 1px solid black;
+$flex : flex;
+$center:center;
+$row: row;
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$direction: top;
+
+
+/*maps*/
+$social:(
+    face : blue,
+    ws : rgb(0, 134, 0),
+    instagram : #ea1e5f,
+    
+
+);
+$red-facebook :  blue;
+$red-ws: rgb(0, 134, 0);
+$red-instagram :  #ea1e5f;
+
+
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+);
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);
+
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px
+);
+
+$estilos: (
+  color: #3673D9,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);
+
 
 
 

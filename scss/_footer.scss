@@ -1,20 +1,13 @@
 
-
 footer{
-    img{
-    width:40px; 
-         p{
-          text-align: $texto-aliniado;
-          font-size: 100%;
-        }
-    }
+@mixin mixinwidth9($texto-aliniado) {
+    width: 40px;
+    font-size: 100%;
+}
 }
 footer{
     .social{
-        width:200px;
-        display:flex;
-        padding: 10px;
-        border-radius:10px;
+        @include flex-width-padding;
     }
 }
 footer{

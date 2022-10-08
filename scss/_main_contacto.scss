@@ -72,20 +72,22 @@ main{
 }
 main{
          .comunicate{
-        color: $color-letra;
+        
         text-align: $texto-justificado;
+        color: $color-letra;
         font-size: 130%;
         }
+        
+    
+        
         .ayuda{
             color: $color-letra;
             text-align: $texto-aliniado; 
         }
         .consulta{
-            color: $color-letra;
-            text-align: $texto-aliniado;
+            @extend.ayuda;
             font-size: 100%;
         }
-    }  
-
+    } 
 
 
