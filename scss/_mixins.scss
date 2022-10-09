@@ -54,19 +54,6 @@
 }
 
 
-@mixin social($nombre){
-    @if $nombre == instagram{
-        color:#ff00ea;
-    }@else if $nombre == facebook{
-        color:blue;
-    }@else if $nombre == ws{
-        color:rgb(231, 33, 33);
-    }@else { 
-        color:rgba(0, 0, 0, 0.336);
-    }
-
-}
-
 
 
 
