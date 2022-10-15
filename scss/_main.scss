@@ -37,3 +37,17 @@ form {
 }
 
 
+
+.ro-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*GLOBAL - inZoom para imagenes*/
+.zoom{
+    transition: width 2s, height 2s, transform 1s;
+    &:hover{
+        transform : scale(.92);
+    }
+}

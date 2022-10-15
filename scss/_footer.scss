@@ -1,7 +1,7 @@
 
 footer{
 @mixin mixinwidth9($texto-aliniado) {
-    width: 40px;
+    width: 200px;
     font-size: 100%;
 }
 }
@@ -32,3 +32,30 @@ footer{
     color: var(--color);
     }
 }
+// footer {
+//     .social{
+//         width:200px;
+//         display:$display;
+//         padding: 10px;
+//         border-radius:10px;
+//     }
+//     .social >a{
+//         width:15%;
+//         font-size:3rem;
+//         height:10px;
+//         display:$display;
+//         justify-content:justify;
+//         align-items:$talign;
+//         cursor:pointer;
+//         text-decoration: none;
+//         border-radius: 5px;
+//         margin:10px;
+//         transition: 0.4s;
+        
+//     }  
+    
+//     .social >a:hover{
+//         transform:translateY(-10px);
+//         color: var(--color);
+//      }
+// }
