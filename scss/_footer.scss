@@ -8,11 +8,12 @@ footer{
 footer{
     .social{
         @include flex-width-padding;
+
     }
 }
 footer{
         .social >a{
-            width:15%;
+            width:25%;
             font-size:3rem;
             height:10px;
             display:flex;
@@ -24,38 +25,19 @@ footer{
             margin:10px;
             transition: 0.4s;
             
+            
+            
         }  
 }
 footer{
     .social >a:hover{
     transform:translateY(-10px);
     color: var(--color);
+   
     }
 }
-// footer {
-//     .social{
-//         width:200px;
-//         display:$display;
-//         padding: 10px;
-//         border-radius:10px;
-//     }
-//     .social >a{
-//         width:15%;
-//         font-size:3rem;
-//         height:10px;
-//         display:$display;
-//         justify-content:justify;
-//         align-items:$talign;
-//         cursor:pointer;
-//         text-decoration: none;
-//         border-radius: 5px;
-//         margin:10px;
-//         transition: 0.4s;
-        
-//     }  
-    
-//     .social >a:hover{
-//         transform:translateY(-10px);
-//         color: var(--color);
-//      }
-// }
+footer {
+    background-color: #bad0d1;
+    color: rgb(31, 28, 28); }
+
+
