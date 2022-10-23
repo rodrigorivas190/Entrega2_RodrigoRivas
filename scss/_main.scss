@@ -18,25 +18,35 @@ section img{
     width:70%;
 } 
 h5{
-    color: $color-letra-secundaria;
+    color:$color-letra-secundaria;
     text-align: $texto-aliniado;
-    font-size: 150%;
+    // font-size: 150%;
+    font-size: 2rem;
 }
+
 h1{
     color: $color-letra;
     text-align: $texto-aliniado;
     font-size: 200%;
 }
 p{
-    text-align: $texto-aliniado;
+    text-align: $texto-aliniado-2;
     font-size: 100%;
     padding: 0.5%;
 }
+  
+
+
 form {
     display: block;
     margin-top: $margen-cero;
 }
-
+.p2 {
+  text-align: $texto-aliniado;
+}
+.strong{
+  text-align: $texto-aliniado;
+}
 
 
 .ro-img {
