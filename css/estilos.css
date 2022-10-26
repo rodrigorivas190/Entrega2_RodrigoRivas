@@ -609,6 +609,9 @@ main .row {
     -moz-user-select: none;
     user-select: none; }
 
+main div .cover {
+  object-fit: cover; }
+
 body {
   background-color: #f7f7f7;
   margin-top: 20px; }

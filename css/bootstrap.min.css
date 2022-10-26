@@ -380,9 +380,7 @@ select:disabled {
 [type=button],
 [type=reset],
 [type=submit],
-button {
-    -webkit-appearance: button
-}
+
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -442,12 +440,10 @@ legend+* {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: textfield
+   
 }
 
-::-webkit-search-decoration {
-    -webkit-appearance: none
-}
+
 
 ::-webkit-color-swatch-wrapper {
     padding: 0
@@ -457,10 +453,7 @@ legend+* {
     font: inherit
 }
 
-::-webkit-file-upload-button {
-    font: inherit;
-    -webkit-appearance: button
-}
+
 
 output {
     display: inline-block
