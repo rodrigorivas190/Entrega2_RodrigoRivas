@@ -1,5 +1,5 @@
 .logo{
-    width: 15%;
+    width: 20%;
     perspective: 10px;
     margin-top: $margen-cero;
     animation: rotar 10s infinite linear;
@@ -26,4 +26,7 @@
 }
 img{
     width:40px;
+    
 }
+
+.logo { width: 300 percentage($number: 30);}

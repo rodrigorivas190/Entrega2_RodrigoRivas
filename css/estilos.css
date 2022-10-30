@@ -73,7 +73,7 @@
   box-sizing: border-box; }
 
 .logo {
-  width: 15%;
+  width: 20%;
   perspective: 10px;
   margin-top: 0px;
   animation: rotar 10s infinite linear;
@@ -96,6 +96,9 @@
 
 img {
   width: 40px; }
+
+.logo {
+  width: 300 3000%; }
 
 .hvr-grow {
   display: inline-flex;
